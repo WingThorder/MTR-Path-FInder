@@ -21,8 +21,8 @@ def print_path(total_time, path):
 
 def main():
     g = build_sample_graph()
-    start = 'Tai Wo Hau'
-    end = 'Airport'
+    start = 'South Horizons'
+    end = 'Tuen Mun'
     result = g.find_shortest_path(start, end)
     print(result)
     # print_path(total_time, path)
